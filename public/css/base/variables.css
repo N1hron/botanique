@@ -1,0 +1,24 @@
+:root {
+    --font-family: 'Roboto';
+
+    --fz-lg: 1.25rem; /* 20px */
+    --fz-md: 0.875rem; /* 14px */
+    --fz-sm: 0.75rem; /* 12px */
+
+    --clr-primary-500: hsl(137, 67%, 41%);
+    --clr-primary-100: hsl(130, 44%, 83%);
+
+    --clr-emphasis-500: hsl(0, 0%, 0%); /* High emphasis*/
+    --clr-emphasis-300: hsla(0, 0%, 0%, 60%); /* Medium emphasis*/
+    --clr-emphasis-200: hsla(0, 0%, 0%, 38%);
+    --clr-emphasis-100: hsla(0, 0%, 0%, 25%);
+    --clr-emphasis-50: hsla(0, 0%, 0%, 12%);
+    --clr-emphasis-25: hsla(0, 0%, 0%, 5%);
+
+    --clr-bg-main: hsl(0, 0%, 96%);
+    --clr-bg-secondary: hsl(0, 0%, 100%);
+
+    --clr-red: hsl(358, 84%, 59%);
+
+    --transition-duration: 0.15s;
+}
