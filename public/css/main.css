@@ -5,7 +5,9 @@
 @import './base/variables.css';
 
 /* Components */
+@import './components/container.css';
 @import './components/header.css';
+@import './components/search.css';
 
 html {
     font-family: 'Roboto';
@@ -17,7 +19,6 @@ a {
     color: var(--clr-emphasis-300);
     transition: color var(--transition-duration);
 
-    &:active,
     &:focus-visible {
         color: var(--clr-primary-500);
     }
@@ -26,5 +27,11 @@ a {
         &:hover {
             color: var(--clr-primary-500);
         }
+    }
+}
+
+svg {
+    path {
+        transition: fill var(--transition-duration);
     }
 }
