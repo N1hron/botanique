@@ -1,0 +1,32 @@
+.header {
+    padding: 0 1.5rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: var(--clr-bg-secondary);
+    box-shadow: 0 0.0625rem 0 0 var(--clr-emphasis-25);
+}
+
+.header__links {
+    list-style: none;
+    display: flex;
+}
+
+.header__link {
+    padding: 1rem 2.3rem;
+
+    font-size: var(--fz-sm);
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+}
+
+.header__link_active {
+    border-bottom: calc(var(--border-width) * 2) solid var(--clr-primary-500);
+
+    & a {
+        color: var(--clr-primary-500);
+    }
+}

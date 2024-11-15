@@ -4,6 +4,9 @@
 @import './base/typography.css';
 @import './base/variables.css';
 
+/* Components */
+@import './components/header.css';
+
 html {
     font-family: 'Roboto';
     background: var(--clr-bg-main);
