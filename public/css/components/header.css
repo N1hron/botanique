@@ -9,6 +9,13 @@
     box-shadow: 0 0.0625rem 0 0 var(--clr-emphasis-25);
 }
 
+.header__logo {
+    img {
+        width: 8.25rem;
+        height: 1.5rem;
+    }
+}
+
 .header__links {
     list-style: none;
     display: flex;
@@ -28,5 +35,12 @@
 
     & a {
         color: var(--clr-primary-500);
+    }
+}
+
+.header__profile {
+    img {
+        width: 2rem;
+        height: 2rem;
     }
 }

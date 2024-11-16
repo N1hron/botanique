@@ -35,6 +35,11 @@
 
     cursor: pointer;
 
+    svg {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
     &:focus-visible {
         g path {
             fill: var(--clr-primary-500);
